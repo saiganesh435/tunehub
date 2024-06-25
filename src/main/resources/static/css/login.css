@@ -1,0 +1,53 @@
+body{
+	font-family:serif;
+	background-color:lightgreen;
+	  margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      height: 100vh;
+      
+	
+}
+#login{
+	color:black;
+	 background-color: rgb(50,40,200);
+	  border-radius: 8px;
+	  border-style: solid;
+     border-color: black;
+      background-image:url('/image/indeximage.jpeg') ;
+	  background-repeat:no-repeat;
+	 width:500px;
+	 background-size:100% 100%;
+}
+h1{
+	   text-align: center;
+	   color:white;
+}
+ form {
+      display: flex;
+      flex-direction: column;
+      padding:10px;
+    }
+ label {
+      margin-bottom: 8px;
+      color:white;
+     
+    }    
+  input {
+      padding: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    #submit {
+      background-color: #4caf50;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    #submit:hover {
+      background-color: #45a049;
+    }   
